@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="hardware.css">
+    <script src="codiHardare.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arduprojekts.com</title>
+</head>
+
+<body>
+    <header>
+        <img id="logoWeb" src="arduino-1-logo-png-transparent.png" alt="">
+        <h1>Arduprojekts</h1>
+
+    </header>
+    <div>
+        <ul id="capcalera">
+            <li class="capcalera"><a class="capcalera" href="index.html">Inici</a></li>
+            <li class="capcalera"><a class="capcalera" href="pagina_projectes.html">Projectes</a></li>
+            <li class="capcalera"><a class="capcalera" href="pagina_hardware.html">Hardware</a></li>
+            <li class="capcalera"><a class="capcalera" href="pagina_nosaltres.html">Sobre nos.</a></li>
+        </ul>
+    </div>
+    <div id="articles">
+        <section>
+            <p id="data"> <span class="spanHardware"></span></p>
+            <h2 id="principal">Sensor d'ultrasons</h2>
+            <p>Clica sobre les imatges que es mostren a la part superior o utilitza les fletxes del teclat per a canviar la imatge que es mostra ampliada</p>
+            <ul id="fotosUltrasons">
+                <li><a href="ultrasonsProjecte.jpg" title="Sensor d'ultrasons instal·lat en un projecte">
+                        <img class="imatgePetita" src="ultrasonsProjecte.jpg" alt=""></a></li>
+                <li><a href="ultrasons.jpg" title="Sensor d'ultrasons">
+                        <img class="imatgePetita" src="ultrasons.jpg" alt=""></a></li>
+                <li><a href="ultrasons-darrere.jpg" title="Sensor d'ultrasons per darrere">
+                        <img class="imatgePetita" src="ultrasons-darrere.jpg" alt=""></a></li>
+                <li><a href="ultrasons-davant.jpg" title="Sensor d'ultrasons per davant">
+                        <img class="imatgePetita" src="ultrasons-davant.jpg" alt=""></a></li>
+            </ul><img id="imgPrinc" src="ultrasons.jpg" alt="">
+            <p id="captionImg">Sensor d'ultrasons</p>
+            <p class="element">El sensor d'ultrasons és un sensor que et permet mesurar distàncies a partir dels
+                ultrasons que emet.</p>
+            <div id="divElems">
+                <h3 class="no-visible">Més informació sobre el sensor d'ultrasons:</h3>
+                <p class="element-amagat">Conté quatre pins: el pin 5v, que és el que s'ha de connectar al corrent, el
+                    pin GND, que
+                    es connecta al pin de terra de l'Arduino. El pin Trigger, que controla l'altaveu que emet els
+                    ultrasons,
+                    i el pin Echo, que controla el micròfon que capta els ultrasons.
+                    Està compost per un altaveu i un micròfon. Amb aquest sensor, pots saber, a partir del temps que
+                    tarda
+                    l'ultrasó emès a anar, rebotar en l'objecte i tornar, dividint-ho entre dos, i multiplicant-ho per
+                    la
+                    velocitat del so, pots saber la distància a la que es troba l'objecte.
+                </p>
+            </div>
+        </section>
+        <aside id="entrada-baix">
+            <h3>Software elements</h3>
+            <a href="projecte1.html" class="lateral">
+                <article class="aside">
+                    <h4>Theremin</h4>
+                    <p class="dataArticleAside"> <span class="spanSoftware"></span></p>
+                    <img src="IMG_20221106_121301.jpg" alt="">
+                </article>
+            </a>
+            <a href="Pag_No_Disp.html" class="lateral">
+                <article class="aside">
+                    <h4>Porta de garatge</h4>
+                    <p class="dataArticleAside"> <span class="spanSoftware"></span></p>
+                    <img src="IMG_20221114_200827.jpg" alt="">
+
+                </article>
+            </a>
+            <a href="Pag_No_Disp.html" class="lateral">
+                <article class="aside">
+                    <h4>Robot seguidor de línia</h4>
+                    <p class="dataArticleAside"> <span class="spanSoftware"></span></p>
+                    <img src="IMG_20200924_175023.jpg" alt="">
+                </article>
+            </a>
+            <a href="Pag_No_Disp.html" class="lateral">
+                <article class="aside">
+                    <h4>Robot controlat per Bluetooth</h4>
+                    <p class="dataArticleAside"> <span class="spanSoftware"></span></p>
+                    <img src="IMG_20221205_114640.jpg" alt="">
+                </article>
+            </a>
+        </aside>
+    </div>
+    <footer>
+        <p class="footer">Aquesta pagina web ha estat creada per Pau Tort</p>
+    </footer>
+</body>
+
+</html>

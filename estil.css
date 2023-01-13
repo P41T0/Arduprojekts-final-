@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 5px 5px 5px 5px;
+    max-width: 1300px;
+    margin: auto;
+    padding: auto;
+}
+
+header {
+    background-color: #208B3A;
+    height: 80px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+}
+
+img {
+    border-radius: 5px;
+}
+
+img#logoWeb {
+    max-width: 80px;
+    float: left;
+    transition: 1s;
+}
+
+img#logoWeb:hover {
+    transform: rotate(360deg);
+}
+
+h1 {
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+ul#capcalera {
+    background-color: #2DC653;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+li.capcalera {
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    list-style: none;
+    border-radius: 10px;
+
+    display: inline;
+    transition: all linear 500ms;
+}
+
+li.capcalera:hover {
+    background-color: #208B3A;
+}
+
+a.capcalera {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+
+}
+
+h2#principal {
+    text-align: center;
+    color: black;
+}
+
+div#articles {
+    gap: 10px 15px;
+}
+
+aside {
+
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #25A244;
+    max-width: 800px;
+    box-shadow: 5px 5px 5px darkgrey;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+div#articles {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    text-align: center;
+}
+
+.principal img {
+    max-width: 400px;
+    max-height: 368px;
+}
+
+article.principal {
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    max-width: 500px;
+    max-height: 800px;
+    background-color: #208B3A;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    box-shadow: 5px 5px 5px darkgrey;
+}
+
+@keyframes dreta {
+    0% {
+        transform: translateX(-300px);
+        opacity: 0%;
+        scale: 50%;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 100%;
+        scale: 100%;
+    }
+
+}
+
+@keyframes esquerra {
+    0% {
+        transform: translateX(300px);
+        opacity: 0%;
+        scale: 50%;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 100%;
+        scale: 100%;
+    }
+
+}
+
+@keyframes baix {
+    0% {
+        transform: translateY(500px);
+        scale: 50%;
+        opacity: 0%;
+    }
+
+    50% {
+        opacity: 100%;
+    }
+
+    100% {
+        transform: translateY(0px);
+        scale: 100%;
+    }
+}
+
+@keyframes articles-costat {
+    0% {
+        transform: scale(20%);
+        opacity: 0%;
+    }
+
+    100% {
+        transform: scale(100%);
+        opacity: 100%;
+    }
+}
+
+article.entrada-dreta {
+    animation-name: dreta;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+}
+
+article.entrada-esquerra {
+    animation-name: esquerra;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+}
+
+aside#entrada-baix {
+    animation-name: baix;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+}
+
+article.aside {
+    animation-name: articles-costat;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+}
+
+p {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p.boto {
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    background-color: #1A7431;
+    transition: all linear 500ms;
+}
+
+p.boto:hover {
+    background-color: #10451D;
+
+}
+
+a.boto {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+p.dataArticle {
+    text-align: left;
+    font-size: 0.8em;
+}
+
+article.aside {
+    display: inline-block;
+    background-color: #1A7431;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 300px;
+    margin: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
+    transition: 500ms;
+
+}
+
+.aside:hover {
+    background-color: #10451D;
+}
+
+.aside img {
+    max-width: 250px;
+}
+
+h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+a.lateral {
+    text-decoration: none;
+    color: white;
+    margin: 5px 5px 5px 5px;
+}
+
+p.dataArticleAside {
+    text-align: left;
+    font-size: 0.6em;
+}
+
+footer {
+    background-color: #208B3A;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+p.footer {
+    font-weight: bold;
+    color: white;
+}
